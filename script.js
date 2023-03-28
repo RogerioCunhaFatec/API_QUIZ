@@ -1,5 +1,8 @@
 
 
+//require('fs').readFileSync('input.txt', 'utf8')
+
+
 let pergunta1 = ["Pergunta 1:",1.1,1.2,1.3,1.4]
 let pergunta2 = ["Pergunta 2:",2.1,2.2,2.3,2.4]
 let pergunta3 = ["Pergunta 3:",3.1,3.2,3.3,3.4]
@@ -64,6 +67,7 @@ function chamaDiploma(var1){
 function carregaDados(){
     
     document.getElementById("diploma_nome").textContent =  nomeDiploma
+    document.getElementsByClassName  
 
 }
 
