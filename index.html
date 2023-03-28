@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Quizz.</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    
+    <button onclick="carregar(pergunta1)"> Questão 1 </button>
+    <button onclick="carregar(pergunta2)"> Questão 2</button>
+    <button onclick="carregar(pergunta3)"> Questão 3</button>
+    <button onclick="carregar(pergunta4)"> Questão 4</button>
+
+<h1 class="lista"></h1>
+    <ul>
+        <li><button class="lista" onclick="answer('1')"></button></li>
+        <li><button class="lista" onclick="answer('2')"></button></li>
+        <li><button class="lista" onclick="answer('3')"></button></li>
+        <li><button class="lista" onclick="answer('4')"></button></li>
+    </ul>
+  
+    <button onclick="answerTest()"></button>
+
+    <br>
+
+    <button onclick="chamaDiploma('diploma1.html')"></button>
+    <button onclick="chamaDiploma('diploma2.html')"></button>
+</body>
+
+<script src="script.js"></script>
+</html>
