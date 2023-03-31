@@ -6,15 +6,26 @@
 
 
 
-#diploma1{
+.quizz{
 
-    visibility: visible;
+    display: block;
 
 }
 
+.diploma{
 
-#diploma2{
+    display: none;
 
-    visibility: hidden;
+}
+
+.diploma2{
+
+    display: block;
+
+}
+
+#imagem_diploma{
+
+    display: none;
 
 }
