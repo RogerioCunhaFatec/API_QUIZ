@@ -1,14 +1,44 @@
-.lista{
+#imagem_diploma{
 
-    padding: 15px 32px;
+    display: none;
 
 }
 
-
-
 .quizz{
 
+    display: flex;
+    justify-content: first baseline;
     display: block;
+
+
+}
+.botao_1{
+    
+    height: 40px;
+    width: 140px;
+    font-family: verdana;
+    font-size: 100%;
+    background-color: white;
+    color:#b20000;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition-duration: 0.5s;
+
+}
+  
+.botao_1:hover {
+    background-color: #b20000;
+    color: white;
+  }
+  
+
+
+
+.lista{
+
+    padding: 15px 32px;  
 
 }
 
@@ -21,11 +51,5 @@
 .diploma2{
 
     display: block;
-
-}
-
-#imagem_diploma{
-
-    display: none;
 
 }
