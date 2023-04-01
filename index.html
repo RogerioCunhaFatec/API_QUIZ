@@ -1,63 +1,58 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estudo de Quizz.</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <img src="./img/Scrum.png" alt="Imagem para Diploma" id="imagem_diploma" />
 
-</head>
-<body>
+    <div class="quizz">
+      <button class="botao_1" onclick="carregar(pergunta01)">Questão 1</button>
+      <button class="botao_1" onclick="carregar(pergunta02)">Questão 2</button>
+      <button class="botao_1" onclick="carregar(pergunta03)">Questão 3</button>
+      <button class="botao_1" onclick="carregar(pergunta04)">Questão 4</button>
+      <button class="botao_1" onclick="carregar(pergunta05)">Questão 5</button>
+      <button class="botao_1" onclick="carregar(pergunta06)">Questão 6</button>
+      <button class="botao_1" onclick="carregar(pergunta07)">Questão 7</button>
+      <button class="botao_1" onclick="carregar(pergunta08)">Questão 8</button>
+      <button class="botao_1" onclick="carregar(pergunta09)">Questão 9</button>
+      <button class="botao_1" onclick="carregar(pergunta10)">Questão 10</button>
+    </div>
 
-<img src="./img/Scrum.png" alt="Imagem para Diploma" id="imagem_diploma">
-
-<div class="quizz">
-    <button class ="botao_1" onclick="carregar(pergunta01)"> Questão  1 </button>
-    <button class ="botao_1" onclick="carregar(pergunta02)"> Questão  2 </button>
-    <button class ="botao_1" onclick="carregar(pergunta03)"> Questão  3 </button>
-    <button class ="botao_1" onclick="carregar(pergunta04)"> Questão  4 </button>
-    <button class ="botao_1" onclick="carregar(pergunta05)"> Questão  5 </button>
-    <button class ="botao_1" onclick="carregar(pergunta06)"> Questão  6 </button>
-    <button class ="botao_1" onclick="carregar(pergunta07)"> Questão  7 </button>
-    <button class ="botao_1" onclick="carregar(pergunta08)"> Questão  8 </button>
-    <button class ="botao_1" onclick="carregar(pergunta09)"> Questão  9 </button>
-    <button class ="botao_1" onclick="carregar(pergunta10)"> Questão 10</button>
-
-<h1 class="lista"></h1>
-    <ul>
+    <div>
+      <h1 id="pergunta_"></h1>
+      <ul>
         <li><button class="lista" onclick="answer(1)"></button></li>
         <li><button class="lista" onclick="answer(2)"></button></li>
         <li><button class="lista" onclick="answer(3)"></button></li>
         <li><button class="lista" onclick="answer(4)"></button></li>
-    </ul>
-  
-    <button onclick="answerTest()">Testa Resposta</button>
+      </ul>
 
-</div>
+      <button onclick="answerTest()">Testa Resposta</button>
+    </div>
 
-    <br>
+    <br />
 
-<!-- Trecho formatação do Diploma e impressão do Diploma  -->
+    <!-- Trecho formatação do Diploma e impressão do Diploma  -->
 
-<div class="diploma" style="background-color: aquamarine;">  
-    <h2>
-        <input id = "nome_diploma" type="text" placeholder="Insira seu Nome:">    
-    </h2>
-    <button onclick="carregaDados()">Carrega dados</button>
-</div>
+    <div class="diploma" style="background-color: aquamarine">
+      <h2>
+        <input id="nome_diploma" type="text" placeholder="Insira seu Nome:" />
+      </h2>
+      <button onclick="carregaDados()">Carrega dados</button>
+    </div>
 
+    <div class="diploma2" style="background-color: rosybrown">
+      <h1 id="nota_diploma"></h1>
+      <h2 id="diploma_nome">Nome nota 1</h2>
+    </div>
 
+    <button class="diploma" onclick="imprimir()">Imprimir</button>
+  </body>
 
-<div class="diploma2" style="background-color: rosybrown;">
-    <h1 id="nota_diploma"></h1>
-    <h2 id="diploma_nome">Nome nota 1</h2>
-</div>
-
-<button class="diploma" onclick="imprimir()">Imprimir</button>
-
-
-</body>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </html>

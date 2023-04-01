@@ -6,6 +6,7 @@
 
 .quizz{
 
+    font-family: verdana;
     display: flex;
     justify-content: first baseline;
     display: block;
@@ -34,22 +35,45 @@
   }
   
 
+#pergunta_{
 
-
-.lista{
-
-    padding: 15px 32px;  
+    font-family: verdana;
 
 }
 
+.lista{
+
+    
+    font-family: verdana;
+    height: 40px;
+    width: 140px;
+    font-family: verdana;
+    font-size: 100%;
+    background-color: white;
+    color:#b20000;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition-duration: 0.5s; 
+
+}
+
+.lista:hover {
+    background-color: #b20000;
+    color: white;
+  }
+
 .diploma{
 
+    font-family: verdana;
     display: none;
 
 }
 
 .diploma2{
 
+    font-family: verdana;
     display: block;
 
 }
