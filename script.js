@@ -83,7 +83,7 @@ function answerTest() {
   document.getElementsByClassName("diploma2")[0].style.display = "block";
  
   if (resultado < 6){
-  document.getElementById("nota_diploma").textContent = `Nota da sua avaliação foi : ${resultado} de 10`;
+  document.getElementById("nota_diploma").textContent = `Nota avaliação : ${resultado} de 10`;
   }
 
 }
@@ -145,10 +145,11 @@ function animaBotaoResposta(){
         //console.log(n3)
         
         if (n2 == n3){
-            document.getElementsByClassName("lista")[i].style.backgroundColor = "#E0FFFF"
-
+            document.getElementsByClassName("lista")[i].style.backgroundColor = "#054166"
+            document.getElementsByClassName("lista")[i].style.color = "#B3B012"
         }else {
             document.getElementsByClassName("lista")[i].style.backgroundColor = "white" 
+            document.getElementsByClassName("lista")[i].style.color = "black"
 
         }
     

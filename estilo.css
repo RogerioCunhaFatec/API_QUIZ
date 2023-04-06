@@ -21,17 +21,17 @@
     font-size: 100%;
     background-color: white;
     color:#b20000;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 
 }
 
 .botao_1:hover {
 
-    border-color: blue;
+    border: 3px solid #FF1919
 
 }
 
@@ -78,8 +78,13 @@
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    transition-duration: 0.5s; 
+    transition-duration: 0.2s; 
 
+}
+
+.lista:hover{
+
+    border: 3px solid #FF1919 ;
 }
 
 .diploma{
