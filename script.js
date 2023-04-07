@@ -156,4 +156,4 @@ function animaBotaoResposta(){
      }
 }
 
-// alteração teste
+// Commit   
